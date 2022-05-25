@@ -1,0 +1,323 @@
+ body
+ {  
+ 	margin: 0%!important;
+ 	padding: 0%
+ 	scroll-behavior: smooth;
+ 	text-align: center;
+
+ }
+
+ header /*<-s"selettori*/{ 
+ 	font-family: 'Play', sans-serif;
+    width: 100%;
+    height: 30%;
+  	margin : 0 auto;
+  	padding: 0 auto;
+  	color: black;
+ 	text-align: center;
+ 	position: fixed; 	
+ }
+
+
+h1 {
+	font-family: 'Play', sans-serif;
+	font-size: 4.5em;
+	text-align: center;
+	margin: 0 auto;
+	text-transform: uppercase;
+	padding-top: 60px;
+} 
+
+aside {
+  width: 40%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+
+  }
+
+
+div.relative {
+	font-family: 'Caveat', cursive;
+	font-size: 3.5em;
+	color: #cc0000;
+    position: relative;
+    bottom: 50px;
+  }
+
+h3{
+	font-family: 'Nanum Pen Script', cursive;
+	text-transform: uppercase;
+	font-size: 3.5em;
+	padding-top: 35px;
+}
+
+h4{
+	font-family: 'Prompt', sans-serif;
+}
+
+h5{
+	font-family: 'Prompt', sans-serif;
+	text-transform: uppercase;
+	font-size: 2.5em;
+	padding-top: 35px;
+	font-weight: 600;
+}
+
+
+.btn {
+  background-color: #262626;
+  border-color: #262626;
+  margin-top: 27px;
+  margin-bottom: 150px;
+ }
+
+
+.whitelink {
+	text-decoration: none; 
+	color: black;
+	padding: 15px;
+}
+	a:hover, a:active { 
+		color: white; 
+		text-decoration: none; 
+	}
+
+nav { 
+	margin:0px auto; 
+}
+
+nav ul { 
+	list-style-type: none; padding-left: 0px !important; 
+	background-color: #cc0000;
+	margin: 0px !important;
+}
+/*commento*/
+
+nav ul li { 
+	display: inline-block;
+	padding: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	text-transform: uppercase; /*scritta in maiuscolo*/
+	font-size: 0.7em;
+	padding-top: 30px;
+}
+.active {
+	color: #cc0000;
+	background-color: #bfbfbf;
+	padding-bottom: 10px;
+	padding-top: 15px;
+}
+li.active a {
+	color: #cc0000
+}
+
+.w3-half img{
+  margin-bottom:-0px;margin-top:0px;
+  padding-bottom: 10px;
+}
+
+.w3-row-padding{
+  background-color: #bfbfbf;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 300;
+}
+
+.w3-container.w3-white{
+  padding-top: 14px;
+  font-size: 0.7em !important;
+}
+
+.w3-content{
+  background-color: #bfbfbf !important;
+  }
+
+/*se voglio scrivere queste cose
+in html si usa <style></style>*/
+
+.sections{
+	width: 100% !important;
+	height: 600px;
+	align-items: center;
+	justify-content: center;
+
+}
+
+#section1 {
+	background-image: url(../images/eminemsfondo.jpg); 
+}
+
+#section2 {
+	background-color:  #bfbfbf;
+}
+
+#section3 {
+	background-color:  #b30000; 
+}
+
+#paragraph{
+	padding-left: 50%;
+}
+
+
+.socials2{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.4rem 0 3rem 0;
+    margin-bottom: 25px;
+}
+
+.socials2 li{
+    margin: 0 10px;
+}
+
+.socials2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.socials2 a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+
+.socials2 a:hover i{
+    color: #cc0000;
+}
+
+h6{
+  font-size: 1.3em;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 600;
+}
+
+
+footer{
+    position: inherit;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+    font-family: 'Prompt', sans-serif;
+
+}
+
+h2{
+  color: white;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color: #cc0000;
+}
+
+.footer-menu{
+  float: right;
+  text-transform: uppercase;
+}
+
+.footer-menu ul{
+  display: flex;
+}
+
+.footer-menu ul li{
+padding-right: 10px;
+display: block;
+}
+
+.footer-menu ul li a{
+  color: #cfd2d6;
+  text-decoration: none;
+}
+
+.footer-menu ul li a:hover{
+  color: #27bcda;
+}
+
+.footer-bottom{
+    background: black;
+    width: 100vw;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.footer-bottom p{
+   float: left;
+   font-size: 14px;
+   word-spacing: 2px;
+   text-transform: capitalize;
+}
+.footer-bottom p a{
+  color:black;
+  font-size: 1px;
+  text-decoration: none;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+@media (max-width:500px) {
+.footer-menu ul{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+}
