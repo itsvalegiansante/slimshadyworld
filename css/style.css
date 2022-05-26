@@ -73,46 +73,26 @@ h5{
   margin-bottom: 150px;
  }
 
-
-.whitelink {
-	text-decoration: none; 
-	color: black;
-	padding: 15px;
-}
-	a:hover, a:active { 
-		color: white; 
-		text-decoration: none; 
-	}
-
-nav { 
-	margin:0px auto; 
-}
-
 nav ul { 
-	list-style-type: none; padding-left: 0px !important; 
-	background-color: #cc0000;
-	margin: 0px !important;
-}
+  list-style-type: none; padding-left: 0px !important;}
 /*commento*/
 
 nav ul li { 
-	display: inline-block;
-	padding: 8px;
-	border-top-left-radius: 8px;
-	border-top-right-radius: 8px;
-	text-transform: uppercase; /*scritta in maiuscolo*/
-	font-size: 0.7em;
-	padding-top: 30px;
+  display: inline-block;
+  padding: 8px;
+  text-transform: uppercase; /*scritta in maiuscolo*/
+  font-size: 0.7em
 }
-.active {
-	color: #cc0000;
-	background-color: #bfbfbf;
-	padding-bottom: 10px;
-	padding-top: 15px;
+
+
+#navbarNav{
+  background-color: #cc0000 !important;
 }
-li.active a {
-	color: #cc0000
+
+.bg-light{
+  background-color: #cc0000 !important;
 }
+
 
 .w3-half img{
   margin-bottom:-0px;margin-top:0px;
