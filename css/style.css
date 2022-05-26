@@ -42,8 +42,7 @@ div.relative {
 	font-family: 'Caveat', cursive;
 	font-size: 3.5em;
 	color: #cc0000;
-    position: relative;
-    bottom: 50px;
+    position: bottom: 50px;
   }
 
 h3{
@@ -268,6 +267,11 @@ display: block;
 .footer-menu ul li a:hover{
   color: #27bcda;
 }
+
+
+
+
+
 
 .footer-bottom{
     background: black;
