@@ -14,7 +14,6 @@
   	padding: 0 auto;
   	color: black;
  	text-align: center;
- 	position: fixed, absolute;
  }
 
 
@@ -101,6 +100,7 @@ nav ul li {
   background-color: #bfbfbf;
   font-family: 'Prompt', sans-serif;
   font-weight: 300;
+  font-size: 0.8em
 }
 
 .w3-container.w3-white{
@@ -195,6 +195,48 @@ h2{
   font-weight: 600;
 }
 
+h7{
+    font-family: 'Prompt', sans-serif !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #cc0000;
+    font-size: 1.8em;
+}
+
+h8{
+    font-family: 'Prompt', sans-serif !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.6em;
+
+}
+h9{
+    font-family: 'Prompt', sans-serif;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+h10{
+    font-family: 'Prompt', sans-serif;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-weight: 400;
+    
+}
+
+h11{
+    font-family: 'Prompt', sans-serif;
+    text-transform: capitalize;
+    font-weight: 400;
+
+}
+
+.paragraph{
+  font-family: 'Prompt', sans-serif;
+  font-weight: 200;
+
+}
 
 
 .footer-content{
@@ -266,9 +308,6 @@ display: block;
 .footer-menu ul li a:hover{
   color: #27bcda;
 }
-
-
-
 
 
 
